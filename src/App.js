@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./component/Header";
 import Panel from "./component/Panel";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         }}
       >
         <Panel />
+      </Box>
+      <Box>
+        <Typography> Hamo deployement :: </Typography>
       </Box>
     </React.Fragment>
   );

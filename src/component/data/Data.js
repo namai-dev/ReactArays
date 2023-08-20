@@ -14,6 +14,11 @@ const Data = [
     name: "James John",
     job: "Computer scientist",
   },
+  {
+    id: 4,
+    name: "Fahari Mbaye",
+    job: "Network Manager",
+  },
 ];
 
 export default Data;
